@@ -385,7 +385,7 @@ def save_ip_port(message):
         bot.send_message(chat_id, "Invalid format. Please enter a valid IP and port.")
 
 # Function to start the attack
-@bot.message_handler(func=lambda message: message.text == 'Start Attack 🚀')
+@bot.message_handler(func=lambda message: message.text == 'Start Attack')
 def handle_start_attack(message):
     try:
         user_id = message.from_user.id

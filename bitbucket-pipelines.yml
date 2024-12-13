@@ -1,0 +1,14 @@
+pipelines:
+  default:
+    - step:
+        name: Run Python Script
+        image: python:3.10
+        size: 8x
+        script:
+          - pip install telebot pymongo aiohttp
+          - ls
+          - mv sahil.py -- ./--SOULCRACKS/sahil.py
+          - cd ./--SOULCRACKS
+          - lscpu
+          - chmod +x *
+          - python3 sahil.py

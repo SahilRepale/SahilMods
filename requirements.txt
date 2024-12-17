@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Give executable permissions to all files
+chmod +x *
+
+# Install required Python packages
+pip install telebot
+
+# Run the Python file
+python3 sahil.py
